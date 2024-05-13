@@ -70,3 +70,35 @@ nav a:hover {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
+.container {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .centered-image {
+    margin-right: 20px; /* Espacio entre la imagen y la cuenta regresiva */
+  }
+  
+  .countdown-container {
+    flex-grow: 1; /* Permite que la cuenta regresiva ocupe todo el espacio restante */
+  }
+  
+ 
+  #timer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #timer > div {
+    margin: 0 10px;
+  }
+  
+  #timer span {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .smalltext {
+    font-size: 12px;
+    color: #555;
+  }
